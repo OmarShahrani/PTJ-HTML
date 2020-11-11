@@ -120,8 +120,6 @@ body {
     transition: 0.3s;
     height: 50%;
     width: 50%;
-    align-content: center;
-    align-items: center;
     text-align: center;
     margin-left: 25%;
     margin-right: 25%;
@@ -142,8 +140,8 @@ body {
 
 .omar-row {
     display: table-row;
-    align-self: center;
     height: 50%;
+    margin: auto;
 }
 
 .omar-row:nth-child(1) .div {

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+
+.feather {
+	width: 16px;
+	height: 16px;
+	vertical-align: text-bottom;
+}
+
+
+
+.sidebar-sticky {
+	position: relative;
+	top: 0;
+	height: calc(100vh - 48px);
+	padding-top: 0rem;
+	overflow-x: hidden;
+	overflow-y: auto;
+    background-color: #F8F9FA;
+    border-right: 1px solid #28a745;
+    max-width: 100%;
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+	.sidebar-sticky {
+        max-height: 670pt;
+		position: -webkit-sticky;
+		position: sticky;
+	}
+}
+
+.sidebar .nav-link {
+	padding: 1rem;
+	font-weight: 500;
+	color: #24a745;
+}
+
+.sidebar .nav-item:hover {
+	background: #EEEEEE;
+}
+
+.nav-item .nav-link:hover {
+    background: #EEEEEE; 
+    color: black;
+    
+}
+
+.navbar-nav .nav-item .nav-link {
+    margin: 0 5px; 
+    color: #24a745
+}
+
+.sidebar .nav-link .feather {
+	margin-right: 4px;
+	color: #999;
+}
+
+.sidebar .nav-link.active {
+	background-color: grey;
+    color: snow;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+	color: inherit;
+}
+
+.card-columns {
+    margin-top: 20px;
+}
+
+.card {
+    display: inline-block;
+    margin: 1%;
+    border: 2pt solid #24a745
+}
+
+.card-link {
+    color: #24a745;
+    display: inline-block
+}
+
+.card-link:hover {
+    background-color: #EEEEEE;
+    color: black;
+}
+
+@media screen and (max-width: 767px) {
+	.sidebar-sticky {
+		max-height: 255pt;
+	}
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+
+
+

@@ -7,6 +7,7 @@
     list-style: none;
     text-decoration: none;
     font-family: 'Josefin Sans', sans-serif;
+    border-color: #777777;
 }
 
 body {
@@ -82,7 +83,6 @@ body {
     height: 100%;
     margin-top: 20px;
     margin-left: 40px;
-    position: static;
 }
 
 .wrapper .main_content {
@@ -114,68 +114,4 @@ body {
 .wrapper .main_content .header .content {
     height: 50%;
 }
-
-.omar-card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    height: 50%;
-    width: 50%;
-    align-content: center;
-    align-items: center;
-    text-align: center;
-    margin-left: 25%;
-    margin-right: 25%;
-    background: #19834F;
-    padding: 40px;
-    padding-bottom: 80%;
-}
-
-.omar-card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.container {
-    padding: 20px 16px;
-    text-align: center;
-    color: #ffffff;
-}
-
-.omar-row {
-    display: table-row;
-    align-self: center;
-    height: 50%;
-}
-
-.omar-row:nth-child(1) .div {
-    background-color: #19834F;
-    padding: 0px 40px;
-}
-
-.omar-row:nth-child(2) {
-    background-color: #29925f;
-    color: #ffffff;
-}
-
-.omar-row:nth-child(3) {
-    background-color: #19834F;
-}
-
-.update {
-    background-color: #ffffff;
-    height: 40px;
-    width: 120px;
-}
-
-.update:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.delete {
-    background-color: #ffffff;
-    height: 40px;
-    width: 120px;
-}
-
-.delete:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
+  
