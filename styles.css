@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
     font-family: 'Josefin Sans', sans-serif;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-align: center;
+    direction: ltr;
 }
 
 body {
@@ -80,10 +83,11 @@ body {
 
 .wrapper .inner_body {
     height: 100%;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 40px;
     position: static;
 }
+
 
 .wrapper .main_content {
     width: 100%;
@@ -118,6 +122,33 @@ body {
 .omar-card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    text-align: center;
+    margin-left: 0;
+    background: #19834F;
+    box-sizing: border-box;
+    
+}
+
+.card-working_period-o {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 50%;
+    width: 50%;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 0%;
+    background: #19834F;
+    padding: 40px;
+    padding-bottom: 20%;
+    box-sizing: border-box;
+    padding-top: 10%;
+}
+
+.card-get_department-o {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
     height: 50%;
     width: 50%;
     align-content: center;
@@ -127,7 +158,22 @@ body {
     margin-right: 25%;
     background: #19834F;
     padding: 40px;
-    padding-bottom: 80%;
+    padding-bottom: 60%;
+}
+
+.card-get_supervisor-o {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 50%;
+    width: 50%;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    background: #19834F;
+    padding: 40px;
+    padding-bottom: 60%;
 }
 
 .omar-card:hover {
