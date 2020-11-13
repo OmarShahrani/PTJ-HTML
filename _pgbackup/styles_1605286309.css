@@ -134,9 +134,9 @@ body {
 }
 
 .border-button-color {
-    border-bottom-style: double;
-    padding-bottom: 3%;
-    padding-top: 3%;
+    border-bottom: #ea0000;
+    border: 1px;
+    border-style: solid;
 }
 
 .omar-card {

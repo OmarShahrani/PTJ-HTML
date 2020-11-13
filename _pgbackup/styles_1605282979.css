@@ -9,9 +9,6 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
-border-style: {
-}
-
 body {
     background-color: #f3f5f9;
 }
@@ -126,17 +123,11 @@ body {
     align-content: center;
     align-items: center;
     text-align: center;
-    margin-left: 5%;
+    margin-left: 15%;
     margin-right: 25%;
     background: #19834F;
     padding: 40px;
     padding-bottom: 50%;
-}
-
-.border-button-color {
-    border-bottom-style: double;
-    padding-bottom: 3%;
-    padding-top: 3%;
 }
 
 .omar-card {
